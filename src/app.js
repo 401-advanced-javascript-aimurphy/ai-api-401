@@ -11,6 +11,7 @@ function App(props) {
     <section>
       <div>
         <Todo />
+        <Shopping />
       </div>
       <div>
         <TodoList />

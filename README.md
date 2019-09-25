@@ -8,10 +8,12 @@ This is going to be the most kickass README EVER.
 ### Author: Ai
 
 ### Links and Resources
-* [submission PR](http://xyz.com)
+* [submission PR](https://github.com/401-advanced-javascript-aimurphy/ai-api-401/pull/3)
 * [travis](http://xyz.com)
-* [back-end](http://xyz.com) (when applicable)
-* [front-end](http://xyz.com) (when applicable)
+* [back-end](https://apm-tcp-mssngr.herokuapp.com) (this one isn't working ☹️)
+* [front-end](https://ai-api-401.herokuapp.com/api/v1/todo) (when applicable)
+* alternate [front/api](https://api-js401.herokuapp.com/api/v1/todo) and [back/q](https://q-js401.herokuapp.com)
+
 
 #### Documentation
 * [api docs](http://xyz.com) (API servers)
@@ -26,10 +28,10 @@ This is going to be the most kickass README EVER.
 `q.js` exports useQ which is used in the `todo-list.js` which is subscribed to our `todo.js ` form events. It publishes those events to the list for viewing. As events are submitted to the API server, the q serve is listening for it, and renders them into our list module, the `todo-list.js`.
 
 ###### `useState`
-We use this in `form.js`
+We use this in `form.js` to work like `this.setState` in that we are using it to handle the event of adding to our lists and updating the list with the new submission fro mthe form.
 
 ###### `useEffect`
-You can see this in action in the `todo-list.js`
+You can see this in action in the `todo-list.js` where it works like `componentDidMount`, this is the actualadding part--so the usestate updates and use effect is making sure you can see that.
 
 ### Setup
 #### `.env` requirements
